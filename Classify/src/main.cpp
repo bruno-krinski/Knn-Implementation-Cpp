@@ -29,14 +29,14 @@ int main(int argc, char const *argv[]){
     #pragma omp section
     {
       train_data.readLabels();
-      train_data.printClasses();
+      //train_data.printClasses();
       train_set = train_data.read();
     }
     
     #pragma omp section
     {
       test_data.readLabels();
-      test_data.printClasses();
+      //test_data.printClasses();
       test_set = test_data.read();
     }
   }

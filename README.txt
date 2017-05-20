@@ -20,11 +20,11 @@
 + Execução do extrator de características:                                     +
 + ./genFeatures arg1 arg2 arg3 arg4 arg5 arg6                                  +
 + arg1 = <caminho arquivo treino>                                              +
-+ arg2 = <caminho imagens treino>                                              +
++ arg2 = <caminho pasta imagens treino>                                        +
 + arg3 = <caminho arquivo validação>                                           +
-+ arg4 = <caminho imagens validação>                                           +
++ arg4 = <caminho pasta imagens validação>                                     +
 + arg5 = <caminho arquivo teste>                                               +
-+ arg6 = <caminho imagens teste>                                               +
++ arg6 = <caminho pasta imagens teste>                                         +
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
