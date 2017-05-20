@@ -17,7 +17,7 @@ void concatVector(std::vector<unsigned int>& v,
 
 Data::Data(std::string i,std::string o,std::string p){
   inFile = i;
-  outFile = "Features/" + o;
+  outFile = o;
   path = p;
 }
 
@@ -51,7 +51,7 @@ void Data::print(){
 void Data::extractFeatures(){
 
   for(unsigned int i = 0; i < data.size(); ++i){
-    std::cout << i << std::endl;
+    //std::cout << i << std::endl;
    
     cv::Mat image;  
     image = cv::imread(path+"/"+data[i].getName(),0);
