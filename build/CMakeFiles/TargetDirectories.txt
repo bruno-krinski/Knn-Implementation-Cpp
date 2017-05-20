@@ -1,8 +1,0 @@
-/home/krinski/Documents/Image_Processing/Works/KNN/Knn-Implementation-Cpp/build/CMakeFiles/edit_cache.dir
-/home/krinski/Documents/Image_Processing/Works/KNN/Knn-Implementation-Cpp/build/CMakeFiles/rebuild_cache.dir
-/home/krinski/Documents/Image_Processing/Works/KNN/Knn-Implementation-Cpp/build/Classify/build/CMakeFiles/rebuild_cache.dir
-/home/krinski/Documents/Image_Processing/Works/KNN/Knn-Implementation-Cpp/build/Classify/build/CMakeFiles/edit_cache.dir
-/home/krinski/Documents/Image_Processing/Works/KNN/Knn-Implementation-Cpp/build/Classify/build/CMakeFiles/knn.dir
-/home/krinski/Documents/Image_Processing/Works/KNN/Knn-Implementation-Cpp/build/GenFeatures/build/CMakeFiles/rebuild_cache.dir
-/home/krinski/Documents/Image_Processing/Works/KNN/Knn-Implementation-Cpp/build/GenFeatures/build/CMakeFiles/edit_cache.dir
-/home/krinski/Documents/Image_Processing/Works/KNN/Knn-Implementation-Cpp/build/GenFeatures/build/CMakeFiles/genFeatures.dir

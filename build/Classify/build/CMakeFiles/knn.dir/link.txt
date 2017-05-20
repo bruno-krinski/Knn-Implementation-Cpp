@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11 -fopenmp -Ofast -Wall   CMakeFiles/knn.dir/__/src/main.cpp.o  -o ../../knn 
