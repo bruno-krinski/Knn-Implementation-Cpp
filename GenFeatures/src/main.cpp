@@ -26,15 +26,14 @@ int main(int argc, char const *argv[]){
     test.read();
   }
 
-  //train.print();
-  //val.print();
-  //test.print();
   train.extractFeatures();
   val.extractFeatures();
   test.extractFeatures();
-  train.normalize();
-  val.normalize();
-  test.normalize();
+  std::vector<unsigned int> min(48,100),max(48,0);
+  find_minmax(min,max,train.features);
+  train.normalize(min,max);
+  val.normalize(min,max);
+  test.normalize(min,max);
 
   end = std::chrono::high_resolution_clock::now();
   auto duration = 0.0;

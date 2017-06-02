@@ -1,0 +1,3 @@
+/home/krinski/Documents/Knn-Implementation-Cpp/GenFeatures/build/CMakeFiles/rebuild_cache.dir
+/home/krinski/Documents/Knn-Implementation-Cpp/GenFeatures/build/CMakeFiles/edit_cache.dir
+/home/krinski/Documents/Knn-Implementation-Cpp/GenFeatures/build/CMakeFiles/genFeatures.dir

@@ -8,9 +8,13 @@
 #include <iostream>
 #include "Image.h"
 
+void find_minmax(std::vector<unsigned int>& min,
+                 std::vector<unsigned int>& max,
+                 std::vector<std::vector<unsigned int>>& features);
+
 class Data{
 
-private:
+public:
   std::string inFile,outFile;
   std::string path;
   std::vector<Image> data;
@@ -20,7 +24,7 @@ public:
   Data(std::string i,std::string o,std::string p);
   void read();
   void extractFeatures();
-  void normalize();
+  void normalize(std::vector<unsigned int>& min, std::vector<unsigned int>& max);
   void write();
   void print();  
 };

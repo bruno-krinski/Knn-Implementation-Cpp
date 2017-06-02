@@ -15,6 +15,11 @@ void differenceChainCodes(std::vector<unsigned int>& cc,
 void concatVector(std::vector<unsigned int>& v,
                   std::vector<unsigned int>& u);
 
+/*void find_minmax(std::vector<unsigned int>& min, 
+                 std::vector<unsigned int>& max,
+                 std::vector<std::vector<unsigned int>>& features);
+*/
+
 Data::Data(std::string i,std::string o,std::string p){
   inFile = i;
   outFile = o;
@@ -51,7 +56,6 @@ void Data::print(){
 void Data::extractFeatures(){
 
   for(unsigned int i = 0; i < data.size(); ++i){
-    //std::cout << i << std::endl;
    
     cv::Mat image;  
     image = cv::imread(path+"/"+data[i].getName(),0);
@@ -80,8 +84,7 @@ void Data::extractFeatures(){
         chainCodes(contours[k],chain_codes);
         concatVector(totChainCodes,chain_codes);  
       }
-      //std::vector<unsigned int> diffChainCodes;
-      //differenceChainCodes(totChainCodes,diffChainCodes);
+      
       for(unsigned int k = 0; k < 8; ++k){
         histogram[j*8+k] = std::count(totChainCodes.begin(),
                                       totChainCodes.end(),k);
@@ -91,7 +94,8 @@ void Data::extractFeatures(){
   }
 }
 
-void Data::normalize(){
+void Data::normalize(std::vector<unsigned int>& min,
+                    std::vector<unsigned int>& max){
   
   std::ofstream output(outFile);
   
@@ -102,7 +106,7 @@ void Data::normalize(){
   
   output << std::to_string(data.size()) + " " + std::to_string(48) + "\n";
   
-  std::vector<unsigned int> min(48,100);
+  /*std::vector<unsigned int> min(48,100);
   std::vector<unsigned int> max(48,0);
 
   for(unsigned int i = 0; i < features.size(); ++i){
@@ -114,8 +118,8 @@ void Data::normalize(){
         min[j] = features[i][j];
       }   
     }
-  }
-    
+  }*/
+  
   for(unsigned int i = 0; i < features.size(); ++i){
     for(unsigned int j = 0; j < features[i].size(); ++j){
       int a = features[i][j] - min[j];
@@ -124,6 +128,22 @@ void Data::normalize(){
       output << std::to_string(aux) << " ";
     }
     output << data[i].getLabel() + "\n";
+  }
+}
+
+void find_minmax(std::vector<unsigned int>& min, 
+                 std::vector<unsigned int>& max,
+                 std::vector<std::vector<unsigned int>>& features){
+  
+  for(unsigned int i = 0; i < features.size(); ++i){
+    for(unsigned int j = 0; j < features[i].size(); ++j){
+      if(features[i][j] > max[j]){
+        max[j] = features[i][j];
+      }
+      if(features[i][j] < min[j]){
+        min[j] = features[i][j];
+      }   
+    }
   }
 }
 
