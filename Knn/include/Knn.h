@@ -4,6 +4,7 @@
 #include <sstream>
 #include <fstream>
 #include <algorithm>
+#include <cmath>
 #include "Matrix.h"
 #include "FeatureVector.h"
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/knn.dir/home/krinski/Documents/Knn-Implementation-Cpp/Knn/src/main.cpp.o"
+  "CMakeFiles/knn.dir/home/krinski/Documents/Subjects/ImageProcessing/Knn-Implementation-Cpp/Knn/src/main.cpp.o"
   "knn.pdb"
   "knn"
 )

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/krinski/Documents/Knn-Implementation-Cpp/Knn/src/main.cpp" "/home/krinski/Documents/Knn-Implementation-Cpp/Knn/build/CMakeFiles/knn.dir/home/krinski/Documents/Knn-Implementation-Cpp/Knn/src/main.cpp.o"
+  "/home/krinski/Documents/Subjects/ImageProcessing/Knn-Implementation-Cpp/Knn/src/main.cpp" "/home/krinski/Documents/Subjects/ImageProcessing/Knn-Implementation-Cpp/Knn/build/CMakeFiles/knn.dir/home/krinski/Documents/Subjects/ImageProcessing/Knn-Implementation-Cpp/Knn/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

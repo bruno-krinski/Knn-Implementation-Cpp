@@ -1,1 +1,1 @@
-/usr/bin/c++    -std=c++11 -fopenmp -Ofast -Wall   CMakeFiles/knn.dir/home/krinski/Documents/Knn-Implementation-Cpp/Knn/src/main.cpp.o  -o knn 
+/usr/bin/c++    -std=c++11 -fopenmp -Ofast -Wall   CMakeFiles/knn.dir/home/krinski/Documents/Subjects/ImageProcessing/Knn-Implementation-Cpp/Knn/src/main.cpp.o  -o knn 

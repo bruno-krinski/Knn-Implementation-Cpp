@@ -1,3 +1,3 @@
-/home/krinski/Documents/Knn-Implementation-Cpp/Knn/build/CMakeFiles/rebuild_cache.dir
-/home/krinski/Documents/Knn-Implementation-Cpp/Knn/build/CMakeFiles/edit_cache.dir
-/home/krinski/Documents/Knn-Implementation-Cpp/Knn/build/CMakeFiles/knn.dir
+/home/krinski/Documents/Subjects/ImageProcessing/Knn-Implementation-Cpp/Knn/build/CMakeFiles/rebuild_cache.dir
+/home/krinski/Documents/Subjects/ImageProcessing/Knn-Implementation-Cpp/Knn/build/CMakeFiles/edit_cache.dir
+/home/krinski/Documents/Subjects/ImageProcessing/Knn-Implementation-Cpp/Knn/build/CMakeFiles/knn.dir

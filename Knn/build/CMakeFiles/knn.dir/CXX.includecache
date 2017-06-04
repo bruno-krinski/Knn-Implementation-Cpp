@@ -15,6 +15,8 @@ fstream
 -
 algorithm
 -
+cmath
+-
 Matrix.h
 ../include/Matrix.h
 FeatureVector.h
@@ -36,7 +38,7 @@ algorithm
 FeatureVector.h
 ../include/FeatureVector.h
 
-/home/krinski/Documents/Knn-Implementation-Cpp/Knn/src/main.cpp
+/home/krinski/Documents/Subjects/ImageProcessing/Knn-Implementation-Cpp/Knn/src/main.cpp
 iostream
 -
 chrono
@@ -44,7 +46,7 @@ chrono
 omp.h
 -
 ReadFeatures.h
-/home/krinski/Documents/Knn-Implementation-Cpp/Knn/src/ReadFeatures.h
+/home/krinski/Documents/Subjects/ImageProcessing/Knn-Implementation-Cpp/Knn/src/ReadFeatures.h
 Knn.h
-/home/krinski/Documents/Knn-Implementation-Cpp/Knn/src/Knn.h
+/home/krinski/Documents/Subjects/ImageProcessing/Knn-Implementation-Cpp/Knn/src/Knn.h
 

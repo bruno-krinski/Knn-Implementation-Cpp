@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/krinski/Documents/Knn-Implementation-Cpp/GenFeatures/src/Data.cpp" "/home/krinski/Documents/Knn-Implementation-Cpp/GenFeatures/build/CMakeFiles/genFeatures.dir/home/krinski/Documents/Knn-Implementation-Cpp/GenFeatures/src/Data.cpp.o"
-  "/home/krinski/Documents/Knn-Implementation-Cpp/GenFeatures/src/main.cpp" "/home/krinski/Documents/Knn-Implementation-Cpp/GenFeatures/build/CMakeFiles/genFeatures.dir/home/krinski/Documents/Knn-Implementation-Cpp/GenFeatures/src/main.cpp.o"
+  "/home/krinski/Documents/Subjects/ImageProcessing/Knn-Implementation-Cpp/GenFeatures/src/Data.cpp" "/home/krinski/Documents/Subjects/ImageProcessing/Knn-Implementation-Cpp/GenFeatures/build/CMakeFiles/genFeatures.dir/home/krinski/Documents/Subjects/ImageProcessing/Knn-Implementation-Cpp/GenFeatures/src/Data.cpp.o"
+  "/home/krinski/Documents/Subjects/ImageProcessing/Knn-Implementation-Cpp/GenFeatures/src/main.cpp" "/home/krinski/Documents/Subjects/ImageProcessing/Knn-Implementation-Cpp/GenFeatures/build/CMakeFiles/genFeatures.dir/home/krinski/Documents/Subjects/ImageProcessing/Knn-Implementation-Cpp/GenFeatures/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
-  "/usr/local/include"
-  "/usr/local/include/opencv"
+  "/home/krinski/Programs/anaconda3/include/opencv"
+  "/home/krinski/Programs/anaconda3/include"
   )
 
 # Targets to which this target links.
